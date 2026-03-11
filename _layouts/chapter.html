@@ -72,6 +72,60 @@ layout: default
     object-fit: cover;
   }
   
+  /* 챕터 링크 목록 (목차 역할 장 페이지) */
+  .chapter-link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .chapter-link-item {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+  }
+  
+  .chapter-link-item:hover {
+    background: rgba(109, 142, 204, 0.08);
+    border-left-color: #6d8ecc;
+    transform: translateX(4px);
+    text-decoration: none;
+    color: #1a1a1a;
+  }
+  
+  .chapter-link-num {
+    font-family: var(--font-logo);
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #aaa;
+    min-width: 22px;
+    flex-shrink: 0;
+  }
+  
+  .chapter-link-text {
+    font-weight: 600;
+    font-size: 1rem;
+    min-width: 100px;
+    color: #333;
+  }
+  
+  .chapter-link-desc {
+    font-size: 0.9rem;
+    color: #888;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 640px) {
+    .chapter-link-item { flex-wrap: wrap; }
+    .chapter-link-desc { width: 100%; padding-left: 32px; }
+  }
+
   /* Callout 박스 */
   .callout {
     margin: 2em 0;
