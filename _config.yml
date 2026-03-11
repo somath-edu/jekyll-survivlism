@@ -1,4 +1,4 @@
-remote_theme: jasongrimes/jekyll-chapterbook
+
 
 title: 생동주의자
 longtitle: "생동주의자 : 나를 표현하는 102가지"
@@ -98,8 +98,6 @@ destination: ./_site
 incremental: false
 regenerate: true
 
-plugins:
-  - jekyll-remote-theme
 
 collections:
   chapters:
