@@ -99,7 +99,7 @@ incremental: false
 regenerate: true
 
 plugins:
-  - jekyll-readme-index
+  - jekyll-remote-theme
 
 collections:
   chapters:
