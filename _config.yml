@@ -1,16 +1,18 @@
 remote_theme: jasongrimes/jekyll-chapterbook
 
-title: Entropy Study
-longtitle: Entropy Study
-author: [사용자 이름 또는 닉네임]
-email: [이메일 선택사항]
+title: 생동주의자
+longtitle: "생동주의자 : 나를 표현하는 102가지"
+author: Archive S 서점
 description: >
-  염가량론 양자역학 정보이론 공부노트. Part별 체계적 학습 자료.
+  과거에 갇히지 않고 나를 바로 세워 행동하는 생동주의자의 철학과 심리 에세이.
+
+baseurl: "/jekyll-survivlism"
+url: "https://somath-edu.github.io"
 
 # If baseurl_canonical is set, 
 # a <link rel="canonical"> tag will be added to the head of each page,
 # to disambiguate links for search engines.
-baseurl_canonical: https://[yourusername].github.io/[repo명]
+baseurl_canonical: https://somath-edu.github.io/jekyll-survivlism
 
 # A copyright notice will be shown at the bottom of each page,
 # with the current year and the author name.
@@ -39,28 +41,24 @@ bookcrumbs:
 # Links shown above the TOC in the sidebar
 # All "url" variables should have a leading slash.
 sidebar_nav_top:
-- label: Entropy Study 홈
+- label: 생동주의자 홈
   url: /index.html
 
 # Links shown below the TOC in the sidebar
 # All "url" variables should have a leading slash.
 sidebar_nav_bottom:
-- label: Archive S
-  url: /archive-s.html
-- label: 기존 블로그  # 기존 Jekyll 블로그 URL로 변경
-  url: https://[your-blog-repo].github.io/
+- label: 🏛️ Archive S 메인 서점
+  url: https://somath-edu.github.io/
 - label: GitHub
-  url: https://github.com/[yourusername]/[repo명]
+  url: https://github.com/somath-edu/jekyll-survivlism
 
 # Navigation shown at the bottom of the page
 # All "url" variables should have a leading slash.
 bottom_nav:
 - label: Home
   url: /index.html
-- label: Contents
-  url: /contents.html
-- label: Archive S
-  url: /archive-s.html
+- label: 메인 서점으로
+  url: https://somath-edu.github.io/
 
 # Whether to show chapter headings as a table of contents at the top of each chapter page.
 # Override in page front matter with disable_toc: true
@@ -83,7 +81,7 @@ sidebar_toc:
 # Show a link to edit each page on GitHub
 github_edit:
   enabled: true
-  base_url: https://github.com/[yourusername]/[repo명]/edit/main/
+  base_url: https://github.com/somath-edu/jekyll-survivlism/edit/main/
 
 # Custom CSS
 extra_css:
