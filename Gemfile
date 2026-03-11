@@ -8,5 +8,6 @@ gem 'jekyll-feed'
 gem 'jekyll-readme-index'
 gem 'jemoji'
 gem 'webrick'
+gem 'ffi', '< 1.17.0'
 
 # gem "rails"
