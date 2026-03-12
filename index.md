@@ -5,13 +5,6 @@ title: 생동주의자
 
 <h1 class="main-title">생동주의자</h1>
 <p class="sub-title">"나를 표현하는 102가지"</p>
-<a href="{{ site.baseurl }}/나를-표현하는-102가지.html" class="chapter-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">: 나를 표현하는 102가지</span>
-  <span class="dots"></span>
-</a>
-
-
 ---
 
 ## 프롤로그. 태초의 움직임, 하나의 모래알
