@@ -239,11 +239,30 @@ layout: default
   /* 반응형 모바일 */
   @media (max-width: 768px) {
     .chapter-article {
-      margin: 20px 10px;
-      padding: 50px 25px;
+      margin: 15px 10px;
+      padding: 40px 20px;
     }
-    .chapter-title { font-size: 1.9rem; }
-    .chapter-body { font-size: 1.05rem; }
+    .chapter-title { 
+      font-size: 1.8rem; 
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+    .chapter-body { 
+      font-size: 1.05rem; 
+      line-height: 1.9;
+      text-align: left; /* Prevent awful spacing from justified text */
+      overflow-wrap: break-word;
+    }
+    .chapter-body img {
+      margin: 2rem 0;
+    }
+    blockquote, .callout {
+      margin: 2.5rem 0;
+      padding: 25px 20px 25px 25px; /* Less horizontal padding */
+    }
+    .callout-index {
+      padding: 25px 20px;
+    }
     .chapter-nav { flex-direction: column; }
     .nav-btn { width: 100%; text-align: center; }
   }
