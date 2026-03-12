@@ -20,7 +20,7 @@
 
       --font-logo: 'Playfair Display', serif;
       --font-title: 'Noto Serif KR', serif;
-      --font-body: 'Pretendard', sans-serif;
+      --font-body: 'Noto Serif KR', serif; /* 본문도 기본적으로 세리프 적용 */
     }
 
     body {
@@ -29,8 +29,9 @@
       font-family: var(--font-body);
       margin: 0;
       padding: 0;
-      line-height: 1.8;
+      line-height: 1.9; /* 행간을 조금 더 넓게 */
       font-size: 1.05rem;
+      word-break: keep-all; /* 한글 가독성 향상 */
     }
 
     a {
