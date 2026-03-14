@@ -29,31 +29,16 @@ title: 생동주의자
   <span class="chapter-text">내 탓이요, 내 탓이요 (책임의 미학)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/1-문제해결의-시작.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">1. 문제해결의 시작</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/2장-나를-안다는-것-메타인지와-성찰.html" class="chapter-item">
   <span class="chapter-num">2장</span>
   <span class="chapter-text">나를 안다는 것 (메타인지와 성찰)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/2-과제의-분리.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">2. 과제의 분리</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/3장-멘탈의-연금술-마인드셋.html" class="chapter-item">
   <span class="chapter-num">3장</span>
   <span class="chapter-text">멘탈의 연금술 (마인드셋)</span>
-  <span class="dots"></span>
-</a>
-<a href="{{ site.baseurl }}/3-판단과-행동-그리고-책임.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">3. 판단과 행동 그리고 책임</span>
   <span class="dots"></span>
 </a>
 
@@ -70,31 +55,16 @@ title: 생동주의자
   <span class="chapter-text">1대1의 균형 (건강한 거리두기)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/4-인정욕구.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">4. 인정욕구</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/5장-성장의-파동-상호작용.html" class="chapter-item">
   <span class="chapter-num">5장</span>
   <span class="chapter-text">성장의 파동 (상호작용)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/5-솔직함.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">5. 솔직함</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/6장-대화의-기술-소통과-갈등.html" class="chapter-item">
   <span class="chapter-num">6장</span>
   <span class="chapter-text">대화의 기술 (소통과 갈등)</span>
-  <span class="dots"></span>
-</a>
-<a href="{{ site.baseurl }}/6-자기이해.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">6. 자기이해</span>
   <span class="dots"></span>
 </a>
 
@@ -111,31 +81,16 @@ title: 생동주의자
   <span class="chapter-text">문제 해결의 공식 (Process)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/7-지름길.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">7. 지름길</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/8장-몰입과-우선순위-Focus.html" class="chapter-item">
   <span class="chapter-num">8장</span>
   <span class="chapter-text">몰입과 우선순위 (Focus)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/8-메타인지.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">8. 메타인지</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/9장-경험과-정보의-최적화-Efficiency.html" class="chapter-item">
   <span class="chapter-num">9장</span>
   <span class="chapter-text">경험과 정보의 최적화 (Efficiency)</span>
-  <span class="dots"></span>
-</a>
-<a href="{{ site.baseurl }}/9-신과의-대화.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">9. 신과의 대화</span>
   <span class="dots"></span>
 </a>
 
@@ -152,20 +107,10 @@ title: 생동주의자
   <span class="chapter-text">수학이라는 안경 (기초와 기본)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/10-스탯-체크.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">10. 스탯 체크</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/11장-세상의-그래프-읽기-응용과-해석.html" class="chapter-item">
   <span class="chapter-num">11장</span>
   <span class="chapter-text">세상의 그래프 읽기 (응용과 해석)</span>
-  <span class="dots"></span>
-</a>
-<a href="{{ site.baseurl }}/11-멘탈작업.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">11. 멘탈작업</span>
   <span class="dots"></span>
 </a>
 
@@ -182,31 +127,16 @@ title: 생동주의자
   <span class="chapter-text">시간이라는 환상 (과거와 미래)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/12-칭찬의-함정.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">12. 칭찬의 함정</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/13장-틀-밖으로-탈출-자유와-유연성.html" class="chapter-item">
   <span class="chapter-num">13장</span>
   <span class="chapter-text">틀 밖으로 탈출 (자유와 유연성)</span>
   <span class="dots"></span>
 </a>
-<a href="{{ site.baseurl }}/13-멋.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">13. 멋</span>
-  <span class="dots"></span>
-</a>
 
 <a href="{{ site.baseurl }}/14장-운명을-이용하는-법-운과-실력.html" class="chapter-item">
   <span class="chapter-num">14장</span>
   <span class="chapter-text">운명을 이용하는 법 (운과 실력)</span>
-  <span class="dots"></span>
-</a>
-<a href="{{ site.baseurl }}/14-돈과-동경.html" class="chapter-item sub-item">
-  <span class="chapter-num"></span>
-  <span class="chapter-text">14. 돈과 동경</span>
   <span class="dots"></span>
 </a>
 
