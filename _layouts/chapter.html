@@ -80,15 +80,16 @@ layout: default
   /* 본문 텍스트 스타일 */
   .chapter-body {
     font-family: var(--font-serif);
-    font-size: 1.15rem;
-    line-height: 2.1;
+    font-size: 1.18rem; /* Slightly larger for comfort */
+    line-height: 2.2;   /* Increased for vertical rhythm */
     color: var(--text-primary);
     word-break: keep-all;
-    text-align: justify;
+    text-align: left;   /* Left align is generally safer for NKR spacing */
+    letter-spacing: -0.01em; /* Subtle tightening for premium feel */
   }
 
   .chapter-body p {
-    margin-bottom: 2em;
+    margin-bottom: 2.2rem;
   }
 
   .chapter-body strong {
