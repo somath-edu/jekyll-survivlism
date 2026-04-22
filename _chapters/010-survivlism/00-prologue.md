@@ -2,6 +2,7 @@
 layout: chapter
 title: "우리는 어디서 와서, 어떻게 '나'라는 개인이 되었는가?"
 slug: prologue
+order: 0
 ---
 
 -----

@@ -2,6 +2,7 @@
 layout: chapter
 title: "치열하게 살아온 당신에게, 마지막으로 묻는다."
 slug: epilogue
+order: 96
 ---
 
 > **핵심 선언**

@@ -326,7 +326,7 @@ layout: default
   </div>
   
   <footer class="chapter-footer">
-    {% assign sorted_chapters = site.chapters | sort: 'path' %}
+    {% assign sorted_chapters = site.chapters | sort: 'order' %}
     {% for c in sorted_chapters %}
       {% if c.url == page.url %}
         {% assign curr_idx = forloop.index0 %}
