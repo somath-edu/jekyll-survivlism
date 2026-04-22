@@ -164,8 +164,38 @@ layout: default
     .chapter-text { font-size: 1rem; }
   }
 
+  /* 하단 푸터 */
+  .toc-footer {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid var(--accent-line);
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .nav-link-simple {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-sub);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+
+  .nav-link-simple:hover {
+    opacity: 1;
+    text-decoration: underline;
+    color: var(--accent-point);
+  }
+
 </style>
 
 <div class="book-toc-wrapper">
   {{ content }}
+
+  <footer class="toc-footer">
+    <a href="https://somath-edu.github.io/" class="nav-link-simple">
+      🏛️ Archive S 서점 바로가기
+    </a>
+  </footer>
 </div>
