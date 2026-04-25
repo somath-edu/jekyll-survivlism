@@ -284,34 +284,53 @@ layout: default
   }
 
   /* 반응형 모바일 */
-  @media (max-width: 768px) {
     .chapter-article {
-      margin: 15px 10px;
-      padding: 40px 20px;
+      margin: 10px 12px 40px;
+      padding: 35px 20px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.02);
     }
-    .chapter-title { 
-      font-size: 1.8rem; 
-      line-height: 1.4;
+    .chapter-header {
       margin-bottom: 20px;
     }
+    .chapter-header::after {
+      margin-top: 20px;
+    }
+    .chapter-title { 
+      font-size: 1.85rem; 
+      line-height: 1.35;
+      margin-bottom: 0;
+    }
     .chapter-body { 
-      font-size: 1.05rem; 
-      line-height: 1.9;
-      text-align: left; /* Prevent awful spacing from justified text */
-      overflow-wrap: break-word;
+      font-size: 1.08rem; 
+      line-height: 1.85;
     }
-    .chapter-body img {
-      margin: 2rem 0;
+    .chapter-footer {
+      margin-top: 60px;
+      padding-top: 30px;
     }
-    blockquote, .callout {
-      margin: 2.5rem 0;
-      padding: 25px 20px 25px 25px; /* Less horizontal padding */
+    .nav-main { 
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      width: 100%;
     }
-    .callout-index {
-      padding: 25px 20px;
+    .nav-btn { 
+      flex: 1 1 calc(50% - 5px);
+      font-size: 0.92rem; 
+      padding: 15px 10px;
+      border-radius: 12px; /* Slightly less round for modern feel */
+      background: #fdfdfd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
     }
-    .chapter-nav { flex-direction: column; }
-    .nav-btn { width: 100%; text-align: center; }
+    .nav-btn.toc { 
+      flex: 1 1 100%; 
+      order: 3;
+      margin-top: 2px;
+      background: #fff;
+      border: 1px solid var(--divider-line);
+    }
+    .nav-placeholder { display: none; }
+    .nav-secondary { margin-top: 10px; }
   }
 </style>
 
