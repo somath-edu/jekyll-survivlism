@@ -286,52 +286,43 @@ layout: default
   /* 반응형 모바일 */
   @media (max-width: 768px) {
     .chapter-article {
-      margin: 10px 12px 40px;
-      padding: 35px 20px;
-      box-shadow: 0 2px 15px rgba(0,0,0,0.02);
+      margin: 10px 15px 50px;
+      padding: 40px 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
     }
-    .chapter-header {
-      margin-bottom: 20px;
-    }
-    .chapter-header::after {
-      margin-top: 20px;
-    }
-    .chapter-title { 
-      font-size: 1.85rem; 
-      line-height: 1.35;
-      margin-bottom: 0;
-    }
-    .chapter-body { 
-      font-size: 1.08rem; 
-      line-height: 1.85;
-    }
+    .chapter-header { margin-bottom: 25px; }
+    .chapter-header::after { margin-top: 25px; }
+    .chapter-title { font-size: 1.9rem; }
+    .chapter-body { font-size: 1.1rem; line-height: 1.9; }
     .chapter-footer {
-      margin-top: 60px;
-      padding-top: 30px;
+      margin-top: 80px;
+      padding-top: 40px;
     }
     .nav-main { 
       display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
+      flex-direction: row; /* Back to row for premium feel */
+      justify-content: center;
+      gap: 8px;
       width: 100%;
     }
     .nav-btn { 
-      flex: 1 1 calc(50% - 5px);
-      font-size: 0.92rem; 
-      padding: 15px 10px;
-      border-radius: 12px; /* Slightly less round for modern feel */
-      background: #fdfdfd;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      flex: 0 1 auto;
+      font-size: 0.85rem; 
+      padding: 10px 16px;
+      border-radius: 50px; /* Return to pill shape */
+      background: var(--bg-book);
+      border: 1px solid var(--divider-line);
+      box-shadow: none;
+      white-space: nowrap;
     }
     .nav-btn.toc { 
-      flex: 1 1 100%; 
-      order: 3;
-      margin-top: 2px;
+      flex: 0 1 auto;
+      order: 0; /* Natural order: Prev, TOC, Next */
+      margin-top: 0;
       background: #fff;
-      border: 1px solid var(--divider-line);
     }
     .nav-placeholder { display: none; }
-    .nav-secondary { margin-top: 10px; }
+    .nav-secondary { margin-top: 25px; }
   }
 </style>
 
